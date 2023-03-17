@@ -1,16 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  *main -is entry point
  *Return: Always 0 if program is excute successfully
 */
 int main(void)
 {
-	char ALPHABET = 'A';
+	int n = 97;
+	int m = 65;
 
-	while (ALPHABET <= 'Z')
+	while (n <= 122)
 	{
-	putchar(ALPHABET);
-	ALPHABET++;
+		putchar(n);
+		n++;
+	}
+	while (m <= 90)
+	{
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
